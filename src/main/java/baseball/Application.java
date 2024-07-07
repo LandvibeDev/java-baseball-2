@@ -54,7 +54,7 @@ public class Application {
 
             while (!test) {
                 try {
-                    System.out.println("숫자를 입력해주세요 : ");
+                    System.out.println("숫자를 입력해주세요 :");
                     int a = Integer.parseInt(Console.readLine());
                     if (a < 100 || a > 999) {
                         throw new IllegalArgumentException("세 자리 수를 입력해야 합니다.");
