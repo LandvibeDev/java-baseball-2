@@ -26,12 +26,12 @@ do-while문 내부에서는 while문을 이용하여 사용자가 정답을 맞�
 
 4. public static String setUser()
 '숫자를 입력해주세요'라는 메세지를 출력하고 사용자로부터 3자리 숫자를 입력받는 함수.
-사용자가 입력한 문자의 길이가 3자리를 만족하지 않거나, 숫자 외의 값을 입력한 경우 IllegalArgumentException을 발생시킨다.
+사용자가 입력한 문자의 길이가 3자리를 만족하지 않거나, 숫자 외의 값을 입력한 경우 IllegalArgumentException을 발생시킴.
 
 5. public static boolean check3Strike(String computer, String user)
 computer의 숫자와 user가 입력한 숫자가 동일한지를 확인하는 함수.
-정답을 맞춘 경우 '3스트라이크', '3개의 숫자를 모두 맞히셨습니다! 게임 종료'라는 메세지를 출력하고 true를 반환한다.
-정답을 맞추지 못한 경우 false를 반환한다.
+정답을 맞춘 경우 '3스트라이크', '3개의 숫자를 모두 맞히셨습니다! 게임 종료'라는 메세지를 출력하고 true를 반환함.
+정답을 맞추지 못한 경우 false를 반환함.
 
 6. public static boolean[] checkState(String computer, String user)
 사용자가 입력한 3자리 중 스트라이크에 해당하는 숫자의 위치를 true로 변경하는 함수.
