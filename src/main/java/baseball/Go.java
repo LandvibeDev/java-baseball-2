@@ -3,7 +3,7 @@ package baseball;
 import java.util.List;
 
 public class Go {
-    public static String Check(List<Integer> computer, int[] input){
+    public String Check(List<Integer> computer, int[] input){
         int strike = 0;
         int ball = 0;
         for(int i = 0; i < 3; i++){
