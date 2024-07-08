@@ -6,17 +6,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Computer {
-    private List<Integer> com;
+    private List<Integer> ComputerNumbers;
     public void Random(){
-        com = new ArrayList<>();
-        while(com.size() < 3){
+        ComputerNumbers = new ArrayList<>();
+        while(ComputerNumbers.size() < 3){
             int randomNumber = Randoms.pickNumberInRange(1,9);
-            if(!com.contains(randomNumber)){
-                com.add(randomNumber);
+            if(!ComputerNumbers.contains(randomNumber)){
+                ComputerNumbers.add(randomNumber);
             }
         }
     }
     public List<Integer> getCom(){
-        return com;
+        return ComputerNumbers;
     }
 }
