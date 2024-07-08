@@ -16,9 +16,9 @@ public class Application {
                 for (int i = 0; i < 3; i++) {
                     ranArr[i] = randomStr.charAt(i);
                 }
-                    for (int i = 0; i < 3; i++) {
+                    /*for (int i = 0; i < 3; i++) {
                         System.out.print(ranArr[i]);
-                    }
+                    }*/
                 if (ranArr[0] != ranArr[1] && ranArr[1] != ranArr[2] && ranArr[0] != ranArr[2]) {
                     if(ranArr[1]!=0&&ranArr[2]!=0){
                     sad=false;
